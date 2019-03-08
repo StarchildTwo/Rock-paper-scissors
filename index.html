@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rock, paper, scissors</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href=.\style.css />
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+   
+</head>
+<body>
+    <header>
+        <h1 class="headText">Rock Paper Scissors</h1>
+    </header>
+    <div>
+        <div class="scoreBoard">
+            <div class="player badge">Player</div>
+            <div class="comp badge">Comp</div>
+            <span class="playerScore">0</span>:<span class="compScore">0</span>
+        </div>
+
+        <div>
+            <p class="result">Match, set, go!</p>
+        </div>
+
+        <div class="btn-rps">
+            <div class="btn rock">
+                <img src="./assets/pics/rock2.png" alt="">
+            </div >
+            <div class="btn paper">
+                    <img src="./assets/pics/paper2.png" alt="">
+            </div >
+            <div class="btn scissors">
+                <img src="./assets/pics/scissors2.png" alt="">
+            </div >
+            
+            <!-- <button class="btn rock">Rock</button>
+            <button class="btn paper">Paper</button>
+            <button class="btn scissors">Scissors</button> -->
+        </div>
+        <p class="actionText">Make your move.</p>
+    </div>
+
+    <div class="mH">
+        <div class="matchHistory">Matchhistory:</div>
+        <div class="matchHistoryResult"></div>
+    </div>
+<script src=.\app.js></script>
+</body>
+</html>
